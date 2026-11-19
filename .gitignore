@@ -1,0 +1,15 @@
+# 敏感配置
+secrets.h
+
+# 编译产物
+*.bin
+*.elf
+*.map
+build/
+.pio/
+.vscode/
+
+# 本地工具/大文件
+tools/esp32-offline/
+tools/arduino-cli/
+tools/*.zip
