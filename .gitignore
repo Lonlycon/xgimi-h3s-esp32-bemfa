@@ -13,3 +13,11 @@ build/
 tools/esp32-offline/
 tools/arduino-cli/
 tools/*.zip
+
+# 运行时产物 / 备份
+*.log
+*.log.1
+*.bak
+web_preview.html
+__pycache__/
+*.pyc
